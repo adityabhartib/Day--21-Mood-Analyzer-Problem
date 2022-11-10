@@ -9,7 +9,7 @@ public class MoodAnalyser {
         if (message.contains("Sad")) {
             return "SAD";
         } else {
-            return "HAPPY";
+            return "SAD";
         }
     }
 }
