@@ -8,4 +8,12 @@ public class MoodAnalyser {
             return "HAPPY";
         }
     }
+
+    public String moodAnalyser1(String message1) {
+        if (message1.contains("Sad")) {
+            return "SAD";
+        } else {
+            return "HAPPY";
+        }
+    }
 }
